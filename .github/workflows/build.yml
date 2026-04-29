@@ -6,7 +6,7 @@ on:
   #Trigger the workflow on push from the main branch
   push:
     branches:
-      - mi-rama
+      - main
 jobs:
   #Test's job
   tests:
@@ -35,12 +35,12 @@ jobs:
         run: mvn -B test
   #Sonar's Job
   sonar:
-  #Depends on test's job
+    #Depends on test's job
     needs: tests
     name: SonarCloud analysis
-  #Run on Ubuntu using the latest version
+    #Run on Ubuntu using the latest version
     runs-on: ubuntu-latest
-  #Job's steps
+    #Job's steps
     steps:
       #Check-out your repository under $GITHUB_WORKSPACE, so your workflow can access it
       - uses: actions/checkout@v1
@@ -115,7 +115,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download JAR
-      #Download the artifact which was uploaded in the build's job
+       #Download the artifact which was uploaded in the build's job
         uses: actions/download-artifact@v2
         with:
           name: artifact
