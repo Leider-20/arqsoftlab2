@@ -38,8 +38,7 @@ public class DataController {
         return nations;
 
     }
-
-
+    
     @GetMapping("/currencies")
     public JsonNode getRandomnCurrencies(){
         var objectMapper = new ObjectMapper();
