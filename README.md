@@ -1,19 +1,6 @@
 # arqsoftlab2
 
-[![CI/CD Pipeline](https://github.com/Leider-20/arqsoftlab2/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/Leider-20/arqsoftlab2/actions/workflows/build.yml)
-
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Leider-20_arqsoftlab2&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Leider-20_arqsoftlab2)
-
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Leider-20_arqsoftlab2&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Leider-20_arqsoftlab2)
-
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Leider-20_arqsoftlab2&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Leider-20_arqsoftlab2)
-
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Leider-20_arqsoftlab2&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Leider-20_arqsoftlab2)
-
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Leider-20_arqsoftlab2&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Leider-20_arqsoftlab2)
-
 Implementation of a Simple App with the next operations:
-
 
 
 * Get random nations
